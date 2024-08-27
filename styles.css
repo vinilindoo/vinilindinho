@@ -1,0 +1,64 @@
+BODY {
+    COLOR: WHITE;
+    BACKGROUND: BLACK;
+    font-family: "Chakra Petch", sans-serif;
+    MARGIN-BOTTOM:100PX
+}
+
+HEADER {
+    BORDER-BOTTOM: SOLID 2PX RGB(42, 122, 228);
+    PADDING: 20PX;
+
+    FONT-SIZE: 34PX;
+    COLOR: RGB(42, 122, 228);
+
+}
+
+.CALL{
+    BACKGROUND: RGB(184, 156, 213);
+
+    PADDING-BOTTOM: 80PX;
+    PADDING-TOP: 80PX;
+    DISPLAY: FLEX;
+    JUSTIFY-CONTENT: CENTER;
+
+}
+
+.TEXTO{
+    MARGIN:5%
+}
+
+H1{FONT-SIZE:35PX;
+
+}
+
+P{FONT-SIZE: 20PX;
+}
+
+
+.CATEGORIA-VIDEOS{
+    DISPLAY:FLEX;
+    OVERFLOW-X: AUTO;
+    GAP:10PX;
+}
+
+.CATEGORIA{PADDING-LEFT:20PX;
+        PADDING-RIGHT: 20PX;
+        MARGIN-TOP:50PX
+    }
+
+    .CATEGORIA-VIDEOS IMG{
+        OPACITY:0.5;
+        HEIGHT:200PX;
+    }
+
+    .CATEGORIA-VIDEOS IMG:HOVER{
+        OPACITY:1.0;
+        BORDER:1PX SOLID GREEN;
+
+    }
+
+    .CATEGORIA H2{
+        COLOR: RGB(42, 122, 228);
+
+    }
